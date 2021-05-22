@@ -1,0 +1,29 @@
+.show {
+  height: 700px;
+}
+
+.choice {
+  overflow-y: auto;
+  height: 500px;
+}
+p {
+  cursor: pointer;
+}
+
+.border:hover {
+  box-shadow: 0 0 2px 2px lightgray;
+}
+
+.color,
+.capacitys {
+  cursor: pointer;
+}
+
+.color:focus,
+.capacitys:focus {
+  background-color: lightblue;
+}
+
+.gray {
+  background-color: lightgray;
+}

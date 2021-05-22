@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=380, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif
+        }
+
+        #control-panel {
+            text-align: center
+        }
+
+        #try {
+            margin-top: 2em;
+            font-size: 22px;
+            padding: 13px 1.2em;
+            border-radius: 6px;
+        }
+
+        #counts {
+            margin-top: .6em
+        }
+
+        #count-shiny {
+            padding-left: 1em
+        }
+
+        #results {
+            line-height: 120px
+        }
+
+        #results img {
+            display: inline-block;
+            width: 0;
+            max-width: 118px;
+            transition: width .5s;
+            vertical-align: middle
+        }
+    </style>
+
+    <section id="control-panel">
+        <button id="try">
+            試試手氣
+        </button>
+
+        <div id="counts">
+            <span id="count-total"></span>
+            <span id="count-shiny"></span>
+        </div>
+    </section>
+
+    <section id="results">
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+
+        (function () {
+            var count = 0,
+                countShiny = 0,
+                htmlImgLugia = '<img src="https://cf.shopee.tw/file/cc65b8d520d9bf93bdc00ee62855480f">',
+                htmlImgShinyLugia = '<img src="https://s.yimg.com/ob/image/eb55a21e-dd77-442c-acc5-cb6b4f964c1f.jpg">';
+
+            $(htmlImgLugia).hide().prependTo("#results");
+            $(htmlImgShinyLugia).hide().prependTo("#results");
+
+            $("#try").click(function () {
+                var result;
+
+                count++;
+
+                if (Math.random() < 1 / 100) {
+                    result = htmlImgShinyLugia;
+                    countShiny++;
+                } else {
+                    result = htmlImgLugia;
+                    // countShiny++;
+                }
+                $(result).prependTo("#results").fadeIn("slow").width("118px");
+
+                $("#count-total").html("試了多少次：" + count);
+                $("#count-shiny").html("多少隻色違：" + countShiny);
+            });
+
+        }());
+
+    </script>

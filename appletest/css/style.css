@@ -1,0 +1,14 @@
+.show {
+  height: 600px;
+}
+.choice {
+  overflow-y: auto;
+  height: 500px;
+}
+p {
+  cursor: pointer;
+}
+
+.border:hover {
+  box-shadow: 0 0 2px 2px lightgray;
+}
