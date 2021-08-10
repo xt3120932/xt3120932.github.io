@@ -1,0 +1,2228 @@
+h2,
+a,
+p {
+  font-family: cursive;
+}
+
+/*======================== idea area start ========================*/
+
+.area_back {
+  width: 600px;
+  height: 1400px;
+  background-color: #07141e;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.ideabackimg {
+  width: 100%;
+  height: 400px;
+  background-image: url("/img/concept/idea_background.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ideacard {
+  position: relative;
+  top: 200px;
+  width: 1080px;
+  height: 735px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+}
+
+.head_title {
+  font-size: 34px;
+  text-align: center;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.head {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.content_back {
+  position: relative;
+  top: 300px;
+  left: -10px;
+  width: 480px;
+  height: 300px;
+  text-align: center;
+}
+
+.ideacontent_img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 480px;
+  height: 300px;
+  box-shadow: 4px 4px 12px 4px rgba(0, 0, 0, 0.3);
+}
+
+.idealeft {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  width: 480px;
+  height: 615px;
+  background-color: white;
+  padding: 10px;
+}
+
+.leftbtn {
+  position: absolute;
+  top: 690px;
+  left: 50px;
+  width: 480px;
+  height: 45px;
+  background-color: #ffffffff;
+  border: #ffffffff;
+  font-size: 18px;
+  color: green;
+}
+
+.idearight {
+  position: absolute;
+  top: 120px;
+  right: 50px;
+  width: 480px;
+  height: 615px;
+  background-color: white;
+  padding: 10px;
+}
+
+.rightbtn {
+  position: absolute;
+  top: 690px;
+  right: 50px;
+  width: 480px;
+  height: 45px;
+  background-color: #ffffffff;
+  border: #ffffffff;
+  font-size: 18px;
+  color: green;
+}
+
+.rightbtn:hover,
+.leftbtn:hover {
+  border-radius: 0px;
+  transition: 0.3s;
+  color: black;
+  font-size: medium;
+}
+
+.ideabottom_set {
+  display: none;
+  position: relative;
+  top: 535px;
+  left: 270px;
+  width: 980px;
+  height: 300px;
+  font-size: 24px;
+  padding: 50px;
+  text-indent: 2em;
+}
+
+@media screen and (min-width: 100px) and (max-width: 320px) {
+  .area_back {
+    width: 100%;
+    height: 1600px;
+    background-color: #07141e;
+    margin: 0;
+    padding: 0;
+  }
+  .ideabackimg {
+    width: 100%;
+    height: 400px;
+    background-image: url("/img/concept/idea_background.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .head_title {
+    position: absolute;
+    top: -40px;
+    left: 5px;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .ideacard {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+  }
+  .ideacontent_img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 360px;
+    height: 300px;
+    box-shadow: 4px 4px 12px 4px rgba(0, 0, 0, 0.3);
+  }
+  .content_back {
+    position: relative;
+    top: 300px;
+    left: 5px;
+    width: 220px;
+    height: 300px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .idealeft {
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    width: 100%;
+    height: 615px;
+    background-color: white;
+    padding: 10px;
+  }
+  .leftbtn {
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .idearight {
+    position: absolute;
+    top: 750px;
+    left: 0px;
+    width: 100%;
+    height: 615px;
+    background-color: white;
+    padding: 10px;
+  }
+  .rightbtn {
+    position: absolute;
+    top: 1320px;
+    left: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .ideabottom_set {
+    display: none;
+    position: absolute;
+    top: 700px;
+    left: 15px;
+    width: 90%;
+    height: 270px;
+    background-color: lightgray;
+    font-family: cursive;
+    font-size: 12px;
+    padding: 5px;
+    text-indent: 2em;
+    opacity: 0.9;
+  }
+  .ideabottom_phone {
+    display: none;
+    position: absolute;
+    top: 1320px;
+    left: 15px;
+    width: 90%;
+    height: 270px;
+    font-family: cursive;
+    font-size: 12px;
+    padding: 5px;
+    text-indent: 2em;
+    opacity: 0.9;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 400px) {
+  .area_back {
+    width: 100%;
+    height: 1600px;
+    background-color: #07141e;
+    margin: 0;
+    padding: 0;
+  }
+  .ideabackimg {
+    width: 100%;
+    height: 400px;
+    background-image: url("/img/concept/idea_background.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .head_title {
+    position: absolute;
+    top: -40px;
+    left: 7px;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .ideacard {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px;
+  }
+  .ideacontent_img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 360px;
+    height: 300px;
+    box-shadow: 4px 4px 12px 4px rgba(0, 0, 0, 0.3);
+  }
+  .content_back {
+    position: relative;
+    top: 300px;
+    left: 30px;
+    width: 280px;
+    height: 300px;
+    text-align: center;
+  }
+  .idealeft {
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    width: 100%;
+    height: 615px;
+    background-color: white;
+    padding: 10px;
+  }
+  .leftbtn {
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .idearight {
+    position: absolute;
+    top: 750px;
+    left: 0px;
+    width: 100%;
+    height: 615px;
+    background-color: white;
+    padding: 10px;
+  }
+  .rightbtn {
+    position: absolute;
+    top: 1320px;
+    left: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .ideabottom_set {
+    display: none;
+    position: absolute;
+    top: 700px;
+    left: 15px;
+    width: 93%;
+    height: 270px;
+    background-color: lightgray;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 5px;
+    text-indent: 2em;
+    opacity: 0.9;
+  }
+  .ideabottom_phone {
+    display: none;
+    position: absolute;
+    top: 1320px;
+    left: 15px;
+    width: 93%;
+    height: 270px;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 5px;
+    text-indent: 2em;
+    opacity: 0.9;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 638px) {
+  .area_back {
+    width: 100%;
+    height: 1600px;
+    background-color: #07141e;
+    margin: 0;
+    padding: 0;
+  }
+  .ideacard {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+  }
+  .ideacontent_img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    box-shadow: 4px 4px 12px 4px rgba(0, 0, 0, 0.3);
+  }
+  .content_back {
+    position: relative;
+    top: 300px;
+    left: 10px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  }
+  .idealeft {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    width: 100%;
+    height: 590px;
+    background-color: white;
+    padding: 10px;
+  }
+  .leftbtn {
+    position: absolute;
+    top: 690px;
+    left: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .idearight {
+    position: absolute;
+    top: 750px;
+    left: 0px;
+    width: 100%;
+    height: 615px;
+    background-color: white;
+    padding: 10px;
+  }
+  .rightbtn {
+    position: absolute;
+    top: 1320px;
+    left: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .ideabottom_set {
+    display: none;
+    position: absolute;
+    top: 710px;
+    left: 15px;
+    width: 95%;
+    height: 255px;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 10px;
+    text-indent: 2em;
+    opacity: 0.9;
+  }
+  .ideabottom_phone {
+    display: none;
+    position: absolute;
+    top: 1320px;
+    left: 15px;
+    width: 95%;
+    height: 272px;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 10px;
+    text-indent: 2em;
+    opacity: 0.9;
+  }
+}
+
+@media screen and (min-width: 639px) and (max-width: 776px) {
+  .area_back {
+    width: 100%;
+    height: 1250px;
+    background-color: #07141e;
+    margin: 0;
+    padding: 0;
+  }
+  .ideabackimg {
+    width: 100%;
+    height: 400px;
+    background-image: url("/img/concept/idea_background.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .head_title {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .head {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .ideacard {
+    position: relative;
+    top: 5px;
+    width: 776px;
+    left: -40px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .ideacontent_img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 480px;
+    height: 280px;
+    box-shadow: 4px 4px 12px 4px rgba(0, 0, 0, 0.3);
+  }
+  .idealeft {
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    width: 480px;
+    height: 500px;
+    background-color: white;
+    padding: 10px;
+  }
+  .leftbtn {
+    position: absolute;
+    top: 610px;
+    left: 110px;
+    width: 480px;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .idearight {
+    position: absolute;
+    top: 660px;
+    left: 110px;
+    width: 480px;
+    height: 500px;
+    background-color: white;
+    padding: 10px;
+  }
+  .rightbtn {
+    position: absolute;
+    top: 1160px;
+    left: 110px;
+    width: 480px;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .ideabottom_set {
+    display: none;
+    position: absolute;
+    top: 470px;
+    left: 85px;
+    width: 480px;
+    height: 218px;
+    background-color: lightgray;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 10px;
+    opacity: 0.9;
+  }
+  .ideabottom_phone {
+    display: none;
+    position: absolute;
+    top: 1010px;
+    left: 85px;
+    width: 480px;
+    height: 226px;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 10px;
+    text-indent: 2em;
+    opacity: 0.9;
+  }
+}
+
+@media screen and (min-width: 777px) and (max-width: 991px) {
+  .area_back {
+    width: 100%;
+    height: 600px;
+    background-color: #07141e;
+    margin: 0;
+    padding: 0;
+  }
+  .ideabackimg {
+    width: 100%;
+    height: 200px;
+    background-image: url("/img/concept/idea_background.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .head_title {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .head {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .ideacontent_img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 380px;
+    height: 200px;
+    box-shadow: 4px 4px 12px 4px rgba(0, 0, 0, 0.3);
+  }
+  .ideacard {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    left: 0px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .idealeft {
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    width: 340px;
+    height: 450px;
+    background-color: white;
+    padding: 10px;
+  }
+  .leftbtn {
+    position: absolute;
+    top: 540px;
+    left: 15px;
+    width: 340px;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .idearight {
+    position: absolute;
+    top: 100px;
+    left: 385px;
+    width: 340px;
+    height: 450px;
+    background-color: white;
+    padding: 10px;
+  }
+  .rightbtn {
+    position: absolute;
+    top: 540px;
+    left: 385px;
+    width: 340px;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .content_back {
+    position: relative;
+    top: 200px;
+    left: -30px;
+    width: 380px;
+    height: 300px;
+    text-align: center;
+  }
+  .ideabottom_set {
+    display: none;
+    position: relative;
+    top: 0px;
+    left: 15px;
+    width: 710px;
+    height: 200px;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1025px) {
+  .area_back {
+    width: 100%;
+    height: 603px;
+    background-color: #07141e;
+    margin: 0;
+    padding: 0;
+  }
+  .ideabackimg {
+    width: 1024px;
+    height: 200px;
+    background-image: url("/img/concept/idea_background.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .head_title {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .head {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .ideacontent_img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 380px;
+    height: 200px;
+    box-shadow: 4px 4px 12px 4px rgba(0, 0, 0, 0.3);
+  }
+  .ideacard {
+    position: relative;
+    top: 10px;
+    width: 1024px;
+    left: 0px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .idealeft {
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    width: 380px;
+    height: 450px;
+    background-color: white;
+    padding: 10px;
+  }
+  .leftbtn {
+    position: absolute;
+    top: 548px;
+    left: 90px;
+    width: 380px;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .idearight {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    width: 380px;
+    height: 450px;
+    background-color: white;
+    padding: 10px;
+  }
+  .rightbtn {
+    position: absolute;
+    top: 548px;
+    left: 500px;
+    width: 380px;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .content_back {
+    position: relative;
+    top: 200px;
+    left: -10px;
+    width: 380px;
+    height: 300px;
+    text-align: center;
+  }
+  .ideabottom_set {
+    display: none;
+    position: relative;
+    top: 0px;
+    left: 90px;
+    width: 790px;
+    height: 200px;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1130px) {
+  .area_back {
+    width: 100%;
+    height: 603px;
+    background-color: #07141e;
+    margin: 0;
+    padding: 0;
+  }
+  .ideabackimg {
+    width: 1130px;
+    height: 200px;
+    background-image: url("/img/concept/idea_background.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .head_title {
+    position: absolute;
+    top: 10px;
+    left: -50px;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .head {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .ideacontent_img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 200px;
+    box-shadow: 4px 4px 12px 4px rgba(0, 0, 0, 0.3);
+  }
+  .ideacard {
+    position: relative;
+    top: 10px;
+    width: 1130px;
+    left: 0px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .idealeft {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    padding: 10px;
+  }
+  .leftbtn {
+    position: absolute;
+    top: 548px;
+    left: 80px;
+    width: 400px;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .idearight {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    padding: 10px;
+  }
+  .rightbtn {
+    position: absolute;
+    top: 548px;
+    left: 500px;
+    width: 400px;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .content_back {
+    position: relative;
+    top: 200px;
+    left: 5px;
+    width: 380px;
+    height: 300px;
+    text-align: center;
+  }
+  .ideabottom_set {
+    display: none;
+    position: relative;
+    top: 0px;
+    left: 80px;
+    width: 820px;
+    height: 200px;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1131px) {
+  .area_back {
+    width: 100%;
+    height: 940px;
+    background-color: #07141e;
+    margin: 0;
+    padding: 0;
+  }
+  .ideacard {
+    position: relative;
+    top: 200px;
+    width: 1080px;
+    height: 735px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+  }
+  .idealeft {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    width: 480px;
+    height: 615px;
+    background-color: white;
+    padding: 10px;
+  }
+  .leftbtn {
+    position: absolute;
+    top: 690px;
+    left: 50px;
+    width: 480px;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .idearight {
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    width: 480px;
+    height: 615px;
+    background-color: white;
+    padding: 10px;
+  }
+  .rightbtn {
+    position: absolute;
+    top: 690px;
+    right: 50px;
+    width: 480px;
+    height: 45px;
+    background-color: #404040;
+    border: #ffffffff;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px;
+  }
+  .ideabottom_set {
+    display: none;
+    position: relative;
+    top: 0px;
+    left: 65px;
+    width: 980px;
+    height: 300px;
+    font-size: 24px;
+    padding: 50px;
+    text-indent: 2em;
+  }
+}
+
+/* ========================idea area end======================== */
+
+/* ========================
+     Company introduction
+======================== */
+
+.company-profile {
+  text-align: center;
+  font-family: cursive;
+}
+
+#section-title {
+  margin-top: 30px;
+}
+
+[data-aos="fade-in"] {
+  opacity: 0;
+  transform: translateY(300px);
+  transition-property: transform, opacity;
+}
+
+[data-aos="fade-in"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-aos="fade-up"] {
+  transform: translateY(300px);
+  transition-property: transform, opacity;
+}
+
+[data-aos="zoom-in"] {
+  opacity: 0;
+  transform: scale(0.2);
+  transition-property: transform, opacity;
+}
+
+[data-aos="zoom-in"].aos-animate {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.spacing {
+  height: 30px;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  border-top: 3px solid #ddd;
+}
+
+.spacing2 {
+  height: 30px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-top: 1.5px solid #ddd;
+}
+
+.center-square {
+  width: 15px;
+  height: 15px;
+  background: aquamarine;
+  margin: 0 0 0 0;
+  display: inline-block;
+  position: relative;
+  top: -7.5px;
+  left: 9.5px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+img {
+  display: inline;
+  max-width: 100%;
+}
+
+.haveborder {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.additional {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-company-left,
+.section-company-right {
+  margin: 20px 0px 10px;
+}
+
+.section-founder-left,
+.section-founder-right {
+  margin: 20px 0px 0px;
+}
+
+.section-company-left > h2 {
+  text-align: left;
+  border-left: 5px solid orange;
+}
+
+.section-founder-right > h2 {
+  text-align: left;
+  border-left: 5px solid orange;
+}
+
+.section-company-left > p {
+  line-height: 1.5;
+  font-size: 22px;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.section-founder-right > p {
+  line-height: 1.5;
+  font-size: 22px;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.carousel-indicators > li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: #ddd;
+  opacity: 0.6;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#company-img-group > .carousel-inner {
+  height: 400px;
+}
+
+#company-img-group img {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+#founder-img-group > .carousel-inner {
+  height: 400px;
+}
+
+#founder-img-group img {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.carousel-indicators {
+  position: absolute;
+  margin-bottom: 0px;
+}
+
+.carousel-indicators > .active {
+  background-color: #8ec1cd;
+}
+
+#basic-information-title > h1 {
+  margin-bottom: 30px;
+}
+
+#table-title {
+  font-family: cursive;
+  padding: 20px 20px;
+  margin-bottom: 0px;
+  background-color: lightgray;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #table-title {
+    width: 600px;
+  }
+}
+
+#table-text {
+  padding: 0px 0px 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+#company-style {
+  width: 600px;
+  height: 400px;
+}
+
+/* ============
+    footer
+============ */
+
+.upblock {
+  opacity: 0.5;
+  width: 100%;
+  height: 800px;
+  background-image: url(/LiquanGlass-master/img/concept/background.jpg);
+  background-size: cover;
+}
+
+/* ========================
+  Company introduction end
+======================== */
+
+/* ========= history css start ========= */
+
+.history_card {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 0;
+  background-color: rgb(37 30 102);
+}
+
+.history_title {
+  text-align: center;
+  font-size: 36px;
+  font-family: cursive;
+  padding: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.main_box {
+  display: flex;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  border: 4px blue;
+  align-items: center;
+}
+
+.button_box {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 70px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.talkboxall {
+  width: 0;
+  height: 0;
+}
+
+.talkbox2 {
+  position: relative;
+  left: -500px;
+  top: -300px;
+  pointer-events: none;
+}
+
+.talkbox2::after {
+  content: "";
+  position: absolute;
+  top: 250px;
+  left: 405px;
+  background-image: url(/img/concept/future1.jpg);
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+  border-color: black black black black;
+  border-style: solid solid solid solid;
+  border-radius: 50%;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.talkbox2:hover::after {
+  background-image: url(/img/concept/future.jpg);
+  background-size: 100% 100%;
+  border-color: yellowgreen yellowgreen yellowgreen yellowgreen;
+}
+
+.talkbox2:active::after {
+  box-shadow: inset 0px 0px 4px;
+  animation-name: spin;
+  animation-duration: 0.1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.talkbox1 {
+  position: relative;
+  left: -2.2%;
+  top: 100px;
+  pointer-events: none;
+}
+
+.talkbox1::after {
+  content: "";
+  position: absolute;
+  top: -150px;
+  width: 100px;
+  height: 100px;
+  background-image: url(/img/concept/now1.jpg);
+  background-size: 100% 100%;
+  border-color: black black black black;
+  border-style: solid solid solid solid;
+  border-radius: 50%;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.talkbox1:hover::after {
+  background-image: url(/img/concept/now.jpg);
+  border-color: yellowgreen yellowgreen yellowgreen yellowgreen;
+}
+
+.talkbox1:active::after {
+  box-shadow: inset 0px 0px 4px;
+  animation-name: spin;
+  animation-duration: 0.1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.talkbox {
+  position: relative;
+  top: -300px;
+  pointer-events: none;
+}
+
+.talkbox::after {
+  content: "";
+  position: absolute;
+  top: 250px;
+  width: 100px;
+  height: 100px;
+  background-image: url(/img/concept/past1.jpg);
+  background-size: 100% 100%;
+  background-position: left;
+  border-radius: 50%;
+  border-color: black black black black;
+  border-style: solid solid solid solid;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.talkbox:hover::after {
+  background-image: url(/img/concept/past.jpg);
+  background-size: 100% 100%;
+  border-color: yellowgreen yellowgreen yellowgreen yellowgreen;
+}
+
+.talkbox:active::after {
+  box-shadow: inset 0px 0px 4px;
+  animation-name: spin;
+  animation-duration: 0.1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.talk2 {
+  border: 5px solid rgb(63, 134, 241);
+  height: 200px;
+  width: 500px;
+  color: white;
+  position: relative;
+  text-shadow: 1px 1px 2px black;
+  padding: 20px;
+}
+
+.talk2::before {
+  border-color: rgb(63, 134, 241) transparent transparent;
+  border-style: solid solid solid;
+  border-width: 20px 20px 20px 20px;
+  bottom: -40px;
+  content: "";
+  height: 0px;
+  left: 430px;
+  position: absolute;
+}
+
+.talk1 {
+  border: 5px solid rgb(210, 0, 252);
+  height: 200px;
+  width: 500px;
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  padding: 20px;
+}
+
+.talk1::before {
+  border-color: transparent transparent rgb(210, 0, 252);
+  border-style: solid solid solid;
+  border-width: 20px 20px 20px 20px;
+  top: -40px;
+  content: "";
+  height: 0px;
+  left: 20px;
+  position: absolute;
+}
+
+.talk {
+  border: 5px solid lightsalmon;
+  height: 200px;
+  width: 500px;
+  color: white;
+  position: relative;
+  padding: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.talk::before {
+  border-color: lightsalmon transparent transparent;
+  border-style: solid solid solid;
+  border-width: 20px 20px 20px 20px;
+  bottom: -40px;
+  content: "";
+  height: 0px;
+  left: 20px;
+  position: absolute;
+}
+
+.timeline {
+  width: 88%;
+  height: 3px;
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 58, 58, 0.4),
+    rgba(209, 3, 216, 0.8)
+  );
+}
+
+.pagebox {
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.page {
+  display: none;
+  width: 1300px;
+  height: 600px;
+  border: 2px solid black;
+  z-index: 4;
+  position: fixed;
+  top: 53%;
+  left: 50%;
+  margin-left: -650px;
+  margin-top: -300px;
+  line-height: 2;
+  text-align: left;
+  background: white;
+  border: 4px solid black;
+  padding: 100px;
+}
+
+.page header {
+  font-size: 2em;
+  font-family: cursive;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
+.page img {
+  width: 30%;
+  float: left;
+  margin: 10px;
+  height: 300px;
+}
+
+.page p {
+  font-size: 15px;
+}
+
+#del_page_but {
+  display: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  border-radius: 50%;
+  z-index: 4;
+  position: fixed;
+  top: 53%;
+  left: 50%;
+  margin-left: 600px;
+  margin-top: -300px;
+  background-image: url(../../img/concept/cross.png);
+  background-size: 100%;
+  background-color: transparent;
+}
+
+#del_page_but:active {
+  top: 53.3%;
+}
+
+.page_but {
+  display: none;
+  width: 0px;
+  height: 0px;
+  z-index: 4;
+  padding: 0;
+  outline: none;
+}
+
+#page_but_left {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -650px;
+  margin-top: -75px;
+  font-size: 100px;
+}
+
+#page_but_left:active {
+  left: 49.7%;
+}
+
+#page_but_right {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: 600px;
+  margin-top: -75px;
+  font-size: 100px;
+}
+
+#page_but_right:active {
+  left: 50.3%;
+}
+
+#cover {
+  display: none;
+  width: 101%;
+  height: 5050px;
+  background-color: rgba(75, 73, 73, 0.7);
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1350px) {
+  .talk {
+    width: 400px;
+  }
+  .talk1 {
+    width: 400px;
+  }
+  .talk2 {
+    width: 400px;
+    left: 90px;
+  }
+  .talk2::before {
+    left: 340px;
+  }
+  .page {
+    margin-left: -550px;
+    width: 1100px;
+    height: 550px;
+  }
+  #del_page_but {
+    margin-left: 500px;
+  }
+  #del_page_but:active {
+    top: 50.3%;
+  }
+  #page_but_left {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: -75px;
+    font-size: 100px;
+  }
+  #page_but_left:active {
+    left: 49.7%;
+  }
+  #page_but_right {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: 450px;
+    margin-top: -75px;
+    font-size: 100px;
+  }
+  #page_but_right:active {
+    margin-left: 450px;
+    margin-top: -75px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .history_card {
+    height: 1700px;
+  }
+  .button_box {
+    transform: rotate(90deg);
+  }
+  .page {
+    width: 900px;
+    margin-left: -450px;
+    font-size: 18px;
+    padding: 50px;
+  }
+  #del_page_but {
+    left: 53%;
+    margin-left: 370px;
+  }
+  #del_page_but:active {
+    top: 50.3%;
+  }
+  #page_but_left {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin-top: -350px;
+    margin-left: -20px;
+    font-size: 100px;
+    transform: rotate(90deg);
+  }
+  #page_but_left:active {
+    margin-top: -355px;
+    margin-left: -20px;
+  }
+  #page_but_right {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    margin-top: 280px;
+    margin-left: 35px;
+    font-size: 100px;
+    transform: rotate(90deg);
+  }
+  #page_but_right:active {
+    margin-top: 285px;
+    margin-left: 35px;
+  }
+  .talkbox::after {
+    z-index: -1;
+    transform: rotate(270deg);
+  }
+  .talkbox1::after {
+    z-index: 0;
+    transform: rotate(270deg);
+  }
+  .talkbox2::after {
+    z-index: -1;
+    transform: rotate(270deg);
+  }
+  .talkbox {
+    left: 100px;
+  }
+  .talkbox1 {
+    left: 100px;
+  }
+  .talkbox2 {
+    left: -260px;
+  }
+  .timeline {
+    left: 200px;
+    z-index: -2;
+  }
+  .talk {
+    height: 450px;
+    width: 250px;
+    left: 100px;
+    top: -140px;
+    transform: rotate(270deg);
+    writing-mode: vertical-rl;
+  }
+  .talk::before {
+    border-color: transparent lightsalmon transparent transparent;
+    bottom: 380px;
+    left: -41px;
+  }
+  .talk2 {
+    height: 450px;
+    width: 250px;
+    left: 510px;
+    top: -140px;
+    transform: rotate(270deg);
+    writing-mode: vertical-rl;
+  }
+  .talk2::before {
+    border-color: transparent rgb(63, 134, 241) transparent transparent;
+    top: 20px;
+    left: -41px;
+  }
+  .talk1 {
+    height: 450px;
+    left: 430px;
+    width: 250px;
+    top: -100px;
+    left: 100px;
+    transform: rotate(270deg);
+    writing-mode: vertical-rl;
+  }
+  .talk1::before {
+    border-color: transparent transparent transparent rgb(210, 0, 252);
+    top: 20px;
+    left: 240px;
+  }
+  .page img {
+    width: 20%;
+  }
+}
+
+#cover {
+  display: none;
+  width: 101%;
+  height: 5100px;
+  background-color: rgba(75, 73, 73, 0.7);
+  position: absolute;
+  z-index: 3;
+}
+
+@media screen and (max-width: 915px) {
+  .page {
+    width: 630px;
+    height: 600px;
+    margin-left: -320px;
+    margin-top: -300px;
+    padding: 20px;
+  }
+  .page header {
+    position: relative;
+    font-size: 20px;
+    top: 10px;
+  }
+  .page p {
+    font-size: 17px;
+  }
+  #del_page_but {
+    width: 30px;
+    height: 30px;
+    margin-left: 250px;
+    margin-top: -300px;
+    z-index: 4;
+  }
+  #del_page_but:active {
+    margin-left: 250px;
+    margin-top: -305px;
+  }
+  #page_but_left {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin-top: -350px;
+    margin-left: -70px;
+    left: 50%;
+    font-size: 50px;
+    transform: rotate(90deg);
+  }
+  #page_but_left:active {
+    margin-top: -355px;
+    margin-left: -70px;
+    left: 50%;
+  }
+  #page_but_right {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    margin-top: 330px;
+    margin-left: -20px;
+    left: 50%;
+    font-size: 50px;
+    transform: rotate(90deg);
+  }
+  #page_but_right:active {
+    margin-top: 335px;
+    margin-left: -20px;
+    left: 50%;
+  }
+  #cover {
+    display: none;
+    width: 100%;
+    height: 6500px;
+    background-color: rgba(75, 73, 73, 0.7);
+    position: absolute;
+    z-index: 3;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .timeline {
+    width: 110%;
+  }
+  .talkbox {
+    top: 0;
+  }
+  .talkbox1 {
+    left: 180px;
+  }
+  .talkbox2 {
+    top: 0;
+    left: -100px;
+  }
+  .talkbox2::after {
+    top: -35px;
+    left: 405px;
+    width: 70px;
+    height: 70px;
+  }
+  .talkbox1::after {
+    top: -135px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  .talkbox::after {
+    top: -35px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  .talk {
+    height: 350px;
+    width: 100px;
+    left: 140px;
+    top: -300px;
+    font-size: 6px;
+    transform: rotate(270deg);
+    writing-mode: vertical-rl;
+    padding: 10px;
+  }
+  .talk::before {
+    border-color: transparent lightsalmon transparent transparent;
+    bottom: 300px;
+    left: -40px;
+  }
+  .talk2 {
+    height: 350px;
+    width: 100px;
+    left: 520px;
+    top: -300px;
+    font-size: 6px;
+    transform: rotate(270deg);
+    writing-mode: vertical-rl;
+    padding: 10px;
+  }
+  .talk2::before {
+    border-color: transparent rgb(63, 134, 241) transparent transparent;
+    bottom: 380px;
+    left: -40px;
+  }
+  .talk1 {
+    height: 350px;
+    left: 125px;
+    width: 100px;
+    top: -150px;
+    font-size: 6px;
+    transform: rotate(270deg);
+    writing-mode: vertical-rl;
+    padding: 10px;
+  }
+  .talk1::before {
+    border-color: transparent transparent transparent rgb(210, 0, 252);
+    top: 20px;
+    left: 90px;
+  }
+  .page {
+    width: 370px;
+    height: 570px;
+    margin-left: -200px;
+    line-height: 20px;
+  }
+  .page header {
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    top: 0px;
+  }
+  .page p {
+    font-size: 10px;
+  }
+  #del_page_but {
+    width: 30px;
+    height: 30px;
+    margin-left: 120px;
+    z-index: 4;
+  }
+  #del_page_but:active {
+    margin-left: 120px;
+  }
+  #page_but_left {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin-top: -330px;
+    left: 50%;
+    margin-left: -70px;
+    font-size: 50px;
+    transform: rotate(90deg);
+  }
+  #page_but_left:active {
+    margin-top: -325px;
+    left: 50%;
+    margin-left: -70px;
+  }
+  #page_but_right {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 350px;
+    left: 50%;
+    margin-left: -20px;
+    font-size: 50px;
+    transform: rotate(90deg);
+  }
+  #page_but_right:active {
+    top: 350px;
+    left: 50%;
+    margin-left: -20px;
+  }
+  #cover {
+    display: none;
+    width: 101%;
+    height: 7000px;
+    background-color: rgba(75, 73, 73, 0.7);
+    position: absolute;
+    z-index: 3;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .talk2 {
+    right: 100px;
+    writing-mode: vertical-rl;
+  }
+  .talk {
+    top: -280px;
+  }
+  .talk2 {
+    top: -280px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .timeline {
+    width: 170%;
+  }
+  .talkbox2 {
+    left: 47px;
+  }
+  .talkbox1 {
+    left: 260px;
+  }
+  .talk2 {
+    width: 80px;
+    writing-mode: vertical-rl;
+    top: -270px;
+    font-size: 2px;
+    padding: 0;
+  }
+  .talk1 {
+    width: 80px;
+    top: -190px;
+    font-size: 2px;
+    padding: 0;
+  }
+  .talk1::before {
+    border-color: transparent transparent transparent rgb(210, 0, 252);
+    top: 20px;
+    left: 70px;
+  }
+  .talk {
+    width: 80px;
+    top: -270px;
+    font-size: 2px;
+    padding: 0;
+  }
+  .button_box {
+    top: -300px;
+  }
+  .page {
+    width: 270px;
+    height: 500px;
+    top: 400px;
+    margin-left: -130px;
+  }
+  .page header {
+    font-size: 15px;
+  }
+  .page p {
+    font-size: 2px;
+  }
+  #del_page_but {
+    width: 30px;
+    height: 30px;
+    top: 400px;
+    left: 50%;
+    margin-left: 110px;
+    z-index: 4;
+  }
+  #del_page_but:active {
+    top: 405px;
+    left: 50%;
+    margin-left: 110px;
+  }
+  #page_but_left {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 400px;
+    margin-left: -55px;
+    left: 50%;
+    font-size: 50px;
+    transform: rotate(90deg);
+  }
+  #page_but_left:active {
+    top: 405px;
+    margin-left: -55px;
+    left: 50%;
+  }
+  #page_but_right {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 280px;
+    left: 50%;
+    margin-left: -10px;
+    font-size: 50px;
+    transform: rotate(90deg);
+  }
+  #page_but_right:active {
+    top: 285px;
+    left: 50%;
+    margin-left: -10px;
+  }
+  #cover {
+    display: none;
+    width: 101%;
+    height: 8080px;
+    background-color: rgba(75, 73, 73, 0.7);
+    position: absolute;
+    z-index: 3;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .timeline {
+    width: 170%;
+  }
+  .talkbox2 {
+    left: 20px;
+  }
+  .talkbox1 {
+    left: 260px;
+  }
+  .talk2 {
+    width: 80px;
+    writing-mode: vertical-rl;
+    top: -300px;
+    font-size: 2px;
+    padding: 0;
+  }
+  .talk1 {
+    width: 80px;
+    top: -190px;
+    font-size: 2px;
+    padding: 0;
+  }
+  .talk1::before {
+    border-color: transparent transparent transparent rgb(210, 0, 252);
+    top: 20px;
+    left: 70px;
+  }
+  .talk {
+    width: 80px;
+    top: -300px;
+    font-size: 2px;
+    padding: 0;
+  }
+  .page {
+    width: 200px;
+    margin-left: -110px;
+  }
+  .page header {
+    font-size: 5px;
+    top: -20px;
+  }
+  .page p {
+    font-size: 1px;
+    top: -30px;
+  }
+  #del_page_but {
+    width: 30px;
+    height: 30px;
+    top: 410px;
+    left: 50%;
+    margin-left: 60px;
+    z-index: 4;
+  }
+  #del_page_but:active {
+    top: 415px;
+    left: 50%;
+    margin-left: 60px;
+  }
+}
+
+/* ----------------
+Footer section
+ ---------------------*/
+
+.footer-section {
+  padding: 65px 0;
+  background: #353649;
+}
+
+.footer-widget {
+  margin-bottom: 40px;
+}
+
+.footer-widget h5 {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 35px;
+  padding-top: 15px;
+}
+
+.footer-widget ul {
+  list-style: none;
+}
+
+.footer-widget ul li a {
+  display: block;
+  color: #acaebc;
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+
+.footer-social a {
+  display: inline-table;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #7e7f8f;
+  border-radius: 50%;
+  color: #7e7f8f;
+  font-size: 12px;
+  text-align: center;
+  margin-right: 6px;
+  margin-bottom: 5px;
+}
+
+.footer-social a i {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.copyright {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #83869b;
+}
+
+.copyright a {
+  color: #83869b;
+  text-decoration: underline;
+}
+
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+  color: #fff;
+}

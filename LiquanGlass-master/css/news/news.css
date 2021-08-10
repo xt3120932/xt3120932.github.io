@@ -1,0 +1,449 @@
+/* -------news-------- */
+
+h2, a, p {
+    font-family: cursive;
+}
+
+.news {
+    width: 100%;
+    height: auto;
+}
+
+.toppicture {
+    width: 100%;
+    position: relative;
+}
+
+.toppicture:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50vh;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 100px 100px white inset;
+}
+
+.toppicture img {
+    width: 100%;
+    height: 50vh;
+}
+
+.newsheader {
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 3.5em;
+    color: black;
+    padding-top: 20px;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+.borderbox {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsbox {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: 0px 0px 4px black;
+}
+
+.selection {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(55, 55, 73);
+    color: white;
+    position: relative;
+    padding-right: 20px;
+    box-shadow: 0px 2px 4px black;
+    cursor: pointer;
+}
+
+.selection1 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(55, 55, 73);
+    color: black;
+    position: relative;
+    margin-top: 20px;
+    padding-right: 20px;
+    color: white;
+    box-shadow: 0px 0px 4px black;
+    cursor: pointer;
+}
+
+.icon {
+    margin-top: -42px;
+    float: right;
+    position: relative;
+}
+
+.icon1 {
+    margin-top: -42px;
+    float: right;
+    position: relative;
+}
+
+.selection p {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.selection1 p {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.newslist {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.newslist ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.newslist li {
+    display: flex;
+    width: 45%;
+    margin: 0;
+    text-align: center;
+    box-shadow: 3px 0px 3px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    clear: both;
+    background-color: white;
+}
+
+.newslist li span {
+    padding-left: 20px;
+}
+
+.newslist li img {
+    width: 40%;
+    height: 200px;
+}
+
+.newsdate {
+    font-size: 20px;
+    margin-right: 20px;
+    color: red;
+}
+
+.news a {
+    text-decoration: none;
+}
+
+.newsoptions_title {
+    font-size: 20px;
+    color: black;
+}
+
+.newsoptions_title:hover {
+    color: blue;
+}
+
+.certificatebox {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.certificateheader {
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    font-family: cursive;
+    font-size: 4em;
+    color: white;
+}
+
+.certificatelist {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.certificatelist img {
+    margin-top: 5%;
+}
+
+.chart {
+    width: 100% !important;
+    height: 90% !important;
+}
+
+.chartbox {
+    display: flex;
+    width: 42%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    background-size: 100% 100%;
+    background-position: bottom;
+    color: rgb(3, 3, 109);
+    background-color: transparent;
+    border: 0;
+    margin-right: 15px;
+}
+
+.bottombox {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    padding-top: 0px;
+}
+
+.chartpbox {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url("/img/news/chart_background.jpg");
+    object-fit: cover;
+    padding: 15px;
+}
+
+.chartp {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 2.5;
+    background-size: 100% 100%;
+    font-family: cursive;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    text-indent: 2em;
+}
+
+.chartpicture {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+/* pie chart start */
+
+.chart_title {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 22px;
+}
+
+.chart_warp {
+    padding: 10px 50px;
+    width: 100%;
+}
+
+.chart_pie {
+    position: relative;
+    display: inline-block;
+    margin: 20px 10px;
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+}
+
+.chart_pie canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* pie chart end */
+
+.map_wrap {
+    width: 100%;
+    height: 520px;
+    padding: 30px;
+    background-color: lightgray;
+    margin-top: 5%;
+    display: flex;
+}
+
+.address_wrap {
+    padding: 2%;
+    background-color: white;
+    margin-left: 5px;
+    height: 455px;
+}
+
+.address_wrap>h3 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.address_wrap>img {
+    margin-top: 50px;
+}
+
+@media screen and (max-width:1000px) {
+    .chart {
+        width: 100% !important;
+        height: 70% !important;
+    }
+}
+
+@media screen and (max-width:922px) {
+    .newslist li {
+        width: 100%;
+    }
+    .chartbox {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .chartp {
+        width: 100%;
+        height: auto;
+    }
+    .chart {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .pbox {
+        width: 100%;
+        height: 50%;
+    }
+    .chartpicture {
+        margin-top: 0;
+    }
+    .bottombox {
+        margin-bottom: 0px;
+    }
+    .chartpbox {
+        flex-direction: column;
+    }
+    .address_wrap {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .toppicture:after {
+        box-shadow: 0 0 30px 30px white inset;
+    }
+    .map_wrap {
+        position: relative;
+        width: 100%;
+        height: 520px;
+        padding: 30px;
+        background-color: lightgray;
+        margin-top: 5%;
+        display: flex;
+    }
+    .address_wrap {
+        display: none;
+    }
+}
+
+/* ----------------
+Footer section
+ ---------------------*/
+
+.footer-section {
+    padding: 65px 0;
+    background: #353649;
+}
+
+.footer-widget {
+    margin-bottom: 40px;
+}
+
+.footer-widget h5 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 35px;
+    padding-top: 15px;
+}
+
+.footer-widget ul {
+    list-style: none;
+}
+
+.footer-widget ul li a {
+    display: block;
+    color: #acaebc;
+    padding: 2px 0;
+    margin-bottom: 8px;
+}
+
+.footer-social a {
+    display: inline-table;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #7e7f8f;
+    border-radius: 50%;
+    color: #7e7f8f;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 6px;
+    margin-bottom: 5px;
+}
+
+.footer-social a i {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.copyright {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #83869b;
+}
+
+.copyright a {
+    color: #83869b;
+    text-decoration: underline;
+}
+
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6, .text-white p, .text-white span, .text-white li, .text-white a {
+    color: #fff;
+}
