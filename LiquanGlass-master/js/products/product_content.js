@@ -200,6 +200,7 @@ $(document).ready(function () {
       });
     }
   }
+
   function set_color() {
     $("#btncustom").click(function () {
       $("#panelid").empty(".panel_content");
@@ -319,13 +320,13 @@ $(document).ready(function () {
     $(".color_control").attr("value", "#FF00FF");
   });
   $(document).on("click", ".pattern1", function () {
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/01.jpg");
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/01.jpg");
   });
   $(document).on("click", ".pattern2", function () {
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/02.jpg");
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/02.jpg");
   });
   $(document).on("click", ".pattern3", function () {
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/03.jpg");
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/03.jpg");
   });
 
   //================== panel area end ==================
@@ -337,7 +338,7 @@ $(document).ready(function () {
     $("#pr_a").empty(".page_set");
     for (i = 0; i <= 54; i++) {
       $("#pr_a").prepend(
-        ' <div class="page_set glass col-lg-2"><img class="p_img" src="/img/LiquanGlass_image/動物造型/利銓-動物造型_200813.jpg" /></div>'
+        ' <div class="page_set glass col-lg-2"><img class="p_img" src="img/LiquanGlass_image/動物造型/利銓-動物造型_200813.jpg" /></div>'
       );
     }
     page();
@@ -347,7 +348,7 @@ $(document).ready(function () {
     $("#pr_a").empty(".page_set");
     for (i = 0; i <= 54; i++) {
       $("#pr_a").prepend(
-        '<div class="page_set pattern col-lg-2"><img class="p_img" src="/img/LiquanGlass_image/器皿/利銓-器皿類_200813_101.jpg" /></div>'
+        '<div class="page_set pattern col-lg-2"><img class="p_img" src="img/LiquanGlass_image/器皿/利銓-器皿類_200813_101.jpg" /></div>'
       );
     }
     page();
@@ -356,7 +357,7 @@ $(document).ready(function () {
     $("#pr_a").empty(".page_set");
     for (i = 0; i <= 54; i++) {
       $("#pr_a").prepend(
-        '<div class="page_set light col-lg-2"><img class="p_img" src="/img/LiquanGlass_image/器皿/利銓-器皿類_200813_134.jpg" /></div>'
+        '<div class="page_set light col-lg-2"><img class="p_img" src="img/LiquanGlass_image/器皿/利銓-器皿類_200813_134.jpg" /></div>'
       );
     }
     page();
@@ -365,7 +366,7 @@ $(document).ready(function () {
     $("#pr_a").empty(".page_set");
     for (i = 0; i <= 55; i++) {
       $("#pr_a").prepend(
-        '<div class="page_set other col-lg-2"><img class="p_img" src="/img/LiquanGlass_image/藝術花容器/利銓-藝術花器（容器）_200813_7.jpg" /></div>'
+        '<div class="page_set other col-lg-2"><img class="p_img" src="img/LiquanGlass_image/藝術花容器/利銓-藝術花器（容器）_200813_7.jpg" /></div>'
       );
     }
     page();
@@ -389,10 +390,9 @@ $(document).ready(function () {
     $(".color_control").attr("type", "");
     $(".p_v").attr(
       "src",
-      "/img/LiquanGlass_image/動物造型/利銓-動物造型_200813.jpg"
+      "img/LiquanGlass_image/動物造型/利銓-動物造型_200813.jpg"
     );
-    $("html, body").animate(
-      {
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -433,10 +433,9 @@ $(document).ready(function () {
     $(".color_control").attr("type", "");
     $(".p_v").attr(
       "src",
-      "/img/LiquanGlass_image/器皿/利銓-器皿類_200813_101.jpg"
+      "img/LiquanGlass_image/器皿/利銓-器皿類_200813_101.jpg"
     );
-    $("html, body").animate(
-      {
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -476,10 +475,9 @@ $(document).ready(function () {
     $(".color_control").attr("type", "");
     $(".p_v").attr(
       "src",
-      "/img/LiquanGlass_image/器皿/利銓-器皿類_200813_134.jpg"
+      "img/LiquanGlass_image/器皿/利銓-器皿類_200813_134.jpg"
     );
-    $("html, body").animate(
-      {
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -520,10 +518,9 @@ $(document).ready(function () {
     $(".color_control").attr("type", "");
     $(".p_v").attr(
       "src",
-      "/img/LiquanGlass_image/藝術花容器/利銓-藝術花器（容器）_200813_7.jpg"
+      "img/LiquanGlass_image/藝術花容器/利銓-藝術花器（容器）_200813_7.jpg"
     );
-    $("html, body").animate(
-      {
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -565,9 +562,8 @@ $(document).ready(function () {
       "<li>內容</li>"
     );
     $(".color_control").attr("type", "");
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/01.jpg");
-    $("html, body").animate(
-      {
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/01.jpg");
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -606,9 +602,8 @@ $(document).ready(function () {
     );
 
     $(".color_control").attr("type", "");
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/02.jpg");
-    $("html, body").animate(
-      {
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/02.jpg");
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -646,9 +641,8 @@ $(document).ready(function () {
       "<li>內容</li>"
     );
     $(".color_control").attr("type", "");
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/03.jpg");
-    $("html, body").animate(
-      {
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/03.jpg");
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -687,9 +681,8 @@ $(document).ready(function () {
       "<li>內容</li>"
     );
     $(".color_control").attr("type", "");
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/04.jpg");
-    $("html, body").animate(
-      {
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/04.jpg");
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -727,9 +720,8 @@ $(document).ready(function () {
       "<li>內容</li>"
     );
     $(".color_control").attr("type", "");
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/05.jpg");
-    $("html, body").animate(
-      {
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/05.jpg");
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -768,9 +760,8 @@ $(document).ready(function () {
     );
 
     $(".color_control").attr("type", "");
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/06.jpg");
-    $("html, body").animate(
-      {
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/06.jpg");
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -808,9 +799,8 @@ $(document).ready(function () {
       "<li>內容</li>"
     );
     $(".color_control").attr("type", "");
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/07.jpg");
-    $("html, body").animate(
-      {
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/07.jpg");
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -849,9 +839,8 @@ $(document).ready(function () {
       "<li>內容</li>"
     );
     $(".color_control").attr("type", "");
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/08.jpg");
-    $("html, body").animate(
-      {
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/08.jpg");
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -889,9 +878,8 @@ $(document).ready(function () {
       "<li>內容</li>"
     );
     $(".color_control").attr("type", "");
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/09.jpg");
-    $("html, body").animate(
-      {
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/09.jpg");
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -930,9 +918,8 @@ $(document).ready(function () {
       "<li>內容</li>"
     );
     $(".color_control").attr("type", "");
-    $(".p_v").attr("src", "/img/LiquanGlass_image/used/10.jpg");
-    $("html, body").animate(
-      {
+    $(".p_v").attr("src", "img/LiquanGlass_image/used/10.jpg");
+    $("html, body").animate({
         scrollTop: $(".product_view").offset().top,
       },
       900
@@ -1138,14 +1125,12 @@ $(document).ready(function () {
     $(".btn_control").click(function () {
       if (isclick == 0) {
         $(".btn_control").text("<");
-        $(".product_sidepanel").animate(
-          {
+        $(".product_sidepanel").animate({
             width: "toggle",
           },
           550
         );
-        $(".btn_control").animate(
-          {
+        $(".btn_control").animate({
             right: "0%",
           },
           530
@@ -1153,14 +1138,12 @@ $(document).ready(function () {
         isclick = 1;
       } else if (isclick == 1) {
         $(".btn_control").text(">");
-        $(".product_sidepanel").animate(
-          {
+        $(".product_sidepanel").animate({
             width: "toggle",
           },
           550
         );
-        $(".btn_control").animate(
-          {
+        $(".btn_control").animate({
             right: "19%",
           },
           550
@@ -1174,14 +1157,12 @@ $(document).ready(function () {
     $(".btn_control").click(function () {
       if (isclick == 2) {
         $(".btn_control").text("<");
-        $(".product_sidepanel").animate(
-          {
+        $(".product_sidepanel").animate({
             width: "toggle",
           },
           550
         );
-        $(".btn_control").animate(
-          {
+        $(".btn_control").animate({
             right: "0%",
           },
           530
@@ -1189,14 +1170,12 @@ $(document).ready(function () {
         isclick = 3;
       } else if (isclick == 3) {
         $(".btn_control").text(">");
-        $(".product_sidepanel").animate(
-          {
+        $(".product_sidepanel").animate({
             width: "toggle",
           },
           550
         );
-        $(".btn_control").animate(
-          {
+        $(".btn_control").animate({
             right: "19%",
           },
           550
@@ -1211,14 +1190,12 @@ $(document).ready(function () {
     $(".btn_control").click(function () {
       if (isclick == 4) {
         $(".btn_control").text("<");
-        $(".product_sidepanel").animate(
-          {
+        $(".product_sidepanel").animate({
             width: "toggle",
           },
           550
         );
-        $(".btn_control").animate(
-          {
+        $(".btn_control").animate({
             right: "0%",
           },
           530
@@ -1227,14 +1204,12 @@ $(document).ready(function () {
         isclick = 5;
       } else if (isclick == 5) {
         $(".btn_control").text(">");
-        $(".product_sidepanel").animate(
-          {
+        $(".product_sidepanel").animate({
             width: "toggle",
           },
           550
         );
-        $(".btn_control").animate(
-          {
+        $(".btn_control").animate({
             right: "19%",
           },
           550
@@ -1248,14 +1223,12 @@ $(document).ready(function () {
     $(".btn_control").click(function () {
       if (isclick == 6) {
         $(".btn_control").text("<");
-        $(".product_sidepanel").animate(
-          {
+        $(".product_sidepanel").animate({
             width: "toggle",
           },
           550
         );
-        $(".btn_control").animate(
-          {
+        $(".btn_control").animate({
             right: "0%",
           },
           530
@@ -1264,14 +1237,12 @@ $(document).ready(function () {
         isclick = 7;
       } else if (isclick == 7) {
         $(".btn_control").text(">");
-        $(".product_sidepanel").animate(
-          {
+        $(".product_sidepanel").animate({
             width: "toggle",
           },
           550
         );
-        $(".btn_control").animate(
-          {
+        $(".btn_control").animate({
             right: "24%",
           },
           550
